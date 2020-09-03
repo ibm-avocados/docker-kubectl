@@ -4,10 +4,6 @@
 
 A simple docker container that has everything required to run `kubectl` on the IBM Cloud.
 
-## Usage
-
-Run via a `docker` `ENTRYPOINT` check: <https://phoenixnap.com/kb/docker-cmd-vs-entrypoint> if you are wondering why.
-
 **EXAMPLE**:
 ```bash
 docker run jjasghar/docker-kubectl:latest "APIKEY" "CLUSTER" "./deployment.yaml"
