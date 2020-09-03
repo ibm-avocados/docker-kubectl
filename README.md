@@ -1,4 +1,4 @@
-# docker istio
+# docker kubectl
 
 ## Scope
 
@@ -6,7 +6,7 @@ A simple docker container that has everything required to run `kubectl` on the I
 
 **EXAMPLE**:
 ```bash
-docker run jjasghar/docker-kubectl:latest "APIKEY" "CLUSTER" "./deployment.yaml"
+docker run quay.io/ibm-avocados/docker-kubectl:latest "APIKEY" "CLUSTER" "./deployment.yaml"
 ```
 
 ## License & Authors
